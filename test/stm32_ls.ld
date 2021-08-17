@@ -14,7 +14,7 @@ SECTIONS
     *(.isr_vector)
     *(.text)
 	*(.rodata)
-	_etext = .; //location counter
+	_etext = .;
   }> FLASH 
   
   .data :
